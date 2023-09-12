@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Conversor de Bases</title>
+   </head>
+   <body>
+      <div class="container">
+         <h1>Conversor de Bases</h1>
+         <section id="ConversorDeBase" class="secao">
+            <label for="inserirNumero">Insira um Número</label>
+            <input type="text" id="inserirNumero" placeholder="Numero" />
+
+            <label for="converte">Tipo de conversão</label>
+            <select name="converte" id="converte">
+               <option value="">Selecione</option>
+               <option value="decimal para binario">
+                  Decimal para Binario
+               </option>
+               <option value="binario para decimal">
+                  Binario para decimal
+               </option>
+            </select>
+
+            <div class="botoes">
+               <button id="converterBtn">Converter</button>
+            </div>
+            <div class="span">
+               <p id="resposta">
+                  <span id="mostrarResposta"></span>
+               </p>
+            </div>
+         </section>
+      </div>
+   </body>
+   <script src="script.js"></script>
+</html>
