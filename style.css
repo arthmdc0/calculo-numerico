@@ -1,12 +1,12 @@
 body {
-   background-color: dodgerblue;
+   background-color: rgb(94, 98, 100);
 }
 
 .container {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   background-color: rgb(6, 41, 76);
+   background-color: rgb(22, 22, 23);
    width: 420px;
    height: 350px;
    margin: 50px auto;
@@ -34,9 +34,14 @@ select {
 
 button {
    margin-top: 10px;
-   background-color: dodgerblue;
+   background-color: rgb(0, 0, 0);
    color: white;
    width: 120px;
    height: 32px;
    border: solid black 2px;
+}
+
+.resposta {
+   font-weight: bold;
+   font-size: 28px;
 }
