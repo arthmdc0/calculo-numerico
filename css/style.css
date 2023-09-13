@@ -1,0 +1,96 @@
+body {
+   background-color: rgb(94, 98, 100);
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: rgb(22, 22, 23);
+   width: 420px;
+   height: 350px;
+   margin: 50px auto;
+   border-radius: 5px;
+   color: #fff;
+   padding: 30px 60px;
+}
+
+.container-manual {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: #fff;
+   background-color: rgb(22, 22, 23);
+   width: 700px;
+   height: 800px;
+   margin: 20px auto;
+   border-radius: 5px;
+   align-items: center;
+   padding: 30px;
+}
+
+.container-equipe {
+   display: flex;
+   gap: 20px;
+   color: #fff;
+   background-color: rgb(22, 22, 23);
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   height: 582px;
+   align-items: center;
+}
+
+.integrantes-container {
+   display: flex;
+   gap: 160px;
+}
+.integrante {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   border: 5px solid white;
+   border-radius: 8px;
+   height: 200px;
+   width: 160px;
+   padding: 10px;
+}
+
+.botoes-manual {
+   display: flex;
+   gap: 10px;
+   margin-bottom: 40px;
+}
+
+.secao {
+   display: flex;
+   flex-direction: column;
+}
+
+label {
+   margin-top: 10px;
+}
+
+input {
+   padding: 7px;
+}
+
+select {
+   padding: 7px;
+}
+
+button {
+   margin-top: 10px;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   width: 120px;
+   height: 32px;
+   border: solid black 2px;
+   border-radius: 5px;
+}
+
+.resposta {
+   font-weight: bold;
+   font-size: 28px;
+}
