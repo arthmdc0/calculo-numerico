@@ -1,12 +1,12 @@
 body {
-   background-color: rgb(94, 98, 100);
+   background-color: rgb(161, 155, 155);
 }
 
 .container {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   background-color: rgb(22, 22, 23);
+   background-color: rgb(48, 48, 52);
    width: 420px;
    height: 350px;
    margin: 50px auto;
@@ -20,7 +20,7 @@ body {
    flex-direction: column;
    justify-content: center;
    color: #fff;
-   background-color: rgb(22, 22, 23);
+   background-color: rgb(48, 48, 52);
    width: 1080px;
    height: auto;
    margin: 20px auto;
@@ -33,7 +33,7 @@ body {
    display: flex;
    gap: 20px;
    color: #fff;
-   background-color: rgb(22, 22, 23);
+   background-color: rgb(48, 48, 52);
    justify-content: center;
    flex-direction: column;
    align-items: center;
@@ -112,7 +112,8 @@ button {
    display: flex;
    aspect-ratio: 16 / 9;
    overflow-x: auto;
-   overflow: hidden;
+   /*overflow: hidden;*/
+   overflow-y: hidden;
    scroll-snap-type: x mandatory;
    scroll-behavior: smooth;
    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
@@ -120,14 +121,41 @@ button {
    width: 755px;
    height: auto;
 }
+/* #slide-container {
+   display: flex;
+   aspect-ratio: 16 / 9;
+   overflow-x: auto;
+   border-radius: 1rem;
+   width: 755px;
+   height: auto;
+   position: relative;
+} */
 
 .slider img {
    flex: 1 0 100%;
    scroll-snap-align: start;
    object-fit: cover;
 }
+.img-dec2bin {
+   width: 735px;
+   height: 360px;
+}
+.img-dec2oct {
+   width: 735px;
+   height: 333px;
+}
 
-.slider-nav {
+.dec2hex {
+   width: 735px;
+   height: 340px;
+}
+
+.texto {
+   position: absolute;
+   color: black;
+}
+
+/* .slider-nav {
    display: flex;
    column-gap: 1rem;
    position: absolute;
@@ -135,7 +163,7 @@ button {
    left: 50%;
    transform: translateX(-50%);
    z-index: 1;
-}
+} */
 
 .slider-nav a {
    width: 0.5rem;
@@ -177,4 +205,9 @@ p {
    justify-content: center;
    align-items: center;
    flex-direction: column;
+}
+
+figcaption {
+   font-size: large;
+   margin: 5px;
 }
