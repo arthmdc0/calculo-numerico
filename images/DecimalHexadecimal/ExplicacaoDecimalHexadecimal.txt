@@ -1,0 +1,27 @@
+Passo 1: Divida o número decimal por 16 e anote o quociente e o resto da divisão.
+
+    7978 ÷ 16 = 498 com um resto de 10
+
+Neste passo, o resto 10 corresponde ao dígito hexadecimal "A".
+
+Passo 2: Divida o quociente obtido no Passo 1 (498) por 16 e anote o quociente e o resto da divisão.
+
+    498 ÷ 16 = 31 com um resto de 2
+
+Neste passo, o resto 2 corresponde ao dígito hexadecimal "2".
+
+Passo 3: Repita o Passo 2 até que o quociente seja menor que 16.
+
+    31 ÷ 16 = 1 com um resto de 15
+
+Neste passo, o resto 15 corresponde ao dígito hexadecimal "F".
+
+Passo 4: Quando o quociente for menor que 16 (1 < 16), pare. O quociente é 1.
+
+Agora, você tem todos os restos que obteve ao dividir o número decimal 7978 por 16:
+
+Restos: A 2 F 1
+
+Lendo esses restos de baixo para cima, obtemos a representação hexadecimal do número decimal 7978:
+
+7978 em hexadecimal é igual a "1F2A".

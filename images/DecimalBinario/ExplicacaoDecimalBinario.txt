@@ -1,0 +1,42 @@
+#DECIMAL PARA BINARIO
+#Passo 0:
+Como exemplo será feita a conversão do numero decimal 26 para a base binária
+Para realizar a conversão é necessario escrever o número decimal e divida por 2.
+
+#Passo 1: Escreva o número decimal e divida por 2.
+
+    26 ÷ 2 = 13
+
+Anotamos o quociente (13) e o resto da divisão (0). O resto é sempre 0 ou 1 na conversão decimal para binário.
+
+#Passo 2: Repita o processo com o quociente obtido no Passo 1 (13) e divida por 2.
+
+    13 ÷ 2 = 6
+
+Anotamos o quociente (6) e o resto (1).
+
+#Passo 3: Novamente, divida o quociente anterior (6) por 2.
+
+    6 ÷ 2 = 3
+
+Anotamos o quociente (3) e o resto (0).
+
+#Passo 4: Continue dividindo o quociente anterior (3) por 2.
+
+    3 ÷ 2 = 1
+
+Anotamos o quociente (1) e o resto (1).
+
+#Passo 5: Finalmente, divida o quociente (1) restante por 2.
+
+    1 ÷ 2 = 0
+
+Anotamos o quociente (0) e o resto (1).
+
+Neste ponto, paramos a divisão, pois o quociente chegou a 0.
+
+#Passo 6: Leia os restos de baixo para cima. Esses restos são os dígitos binários que representam o número decimal 26.
+
+    Lendo os restos de baixo para cima: 11010
+
+Portanto, o número decimal 26 é igual a 11010 em binário.

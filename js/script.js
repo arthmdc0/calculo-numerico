@@ -99,7 +99,7 @@ function converter() {
       const decimal = hexadecimalParaDecimal(numeroInput);
       resposta.textContent = `${decimal}`;
    } else {
-      resposta.textContent = "selecione uma conversao valida";
+      resposta.textContent = "selecione uma conversao valida!";
    }
 }
 

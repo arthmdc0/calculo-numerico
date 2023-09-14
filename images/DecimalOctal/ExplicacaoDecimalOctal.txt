@@ -1,0 +1,23 @@
+Passo 1: Escreva o número decimal e divida por 8.
+
+    123 ÷ 8 = 15
+
+Anotamos o quociente (15) e o resto da divisão (3).
+
+Passo 2: Repita o processo com o quociente obtido no Passo 1 (15) e divida por 8.
+
+    15 ÷ 8 = 1
+
+Anotamos o quociente (1) e o resto (7).
+
+Passo 3: Novamente, divida o quociente anterior (1) por 8.
+
+    1 ÷ 8 = 0
+
+Anotamos o quociente (0) e o resto (1).
+
+Neste ponto, paramos a divisão, pois o quociente chegou a 0.
+
+Passo 4: Leia os restos de baixo para cima. Esses restos são os dígitos octais que representam o número decimal 123.
+
+    Lendo os restos de baixo para cima: 173
