@@ -1,0 +1,21 @@
+Passo 1: Divida os dígitos binários em grupos de quatro, começando da direita para a esquerda, adicionando zeros à esquerda, se necessário.
+Passo 2: Converta cada grupo de quatro dígitos binários em um único dígito hexadecimal.
+Passo 3: Junte os dígitos hexadecimais para obter o número hexadecimal final.
+
+Vou usar o número binário "110110101" como exemplo:
+
+Passo 1: Divida os dígitos binários em grupos de quatro, adicionando zeros à esquerda, se necessário:
+
+    "0001" | "1011" | "0101"
+
+Passo 2: Converta cada grupo de quatro dígitos binários em um único dígito hexadecimal:
+
+    "0101" em binário é igual a "5" em hexadecimal.
+    "1011" em binário é igual a "11"= "B" em hexadecimal.
+    "0001" em binário é igual a "1" em hexadecimal.
+
+Passo 3: Junte os dígitos hexadecimais:
+
+Portanto, o número binário "110110101" é igual a "1B5" em hexadecimal.
+
+Assim, "110110101" em binário é equivalente a "1B5" em hexadecimal.

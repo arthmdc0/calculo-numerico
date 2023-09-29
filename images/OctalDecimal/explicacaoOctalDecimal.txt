@@ -1,0 +1,19 @@
+Passo 1: Escreva o número octal.
+
+Comece com o número octal que você deseja converter em decimal. Os dígitos octais variam de 0 a 7.
+
+Passo 2: Atribua potências de 8 às posições.
+
+Começando da direita para a esquerda, atribua potências de 8 a cada posição de dígito octal, começando com 0 para o dígito mais à direita e aumentando em 1 para cada dígito subsequente.
+
+Passo 3: Multiplique os dígitos octais pelas potências de 8 correspondentes.
+
+Agora, multiplique cada dígito octal pela potência de 8 correspondente à sua posição e anote o resultado.
+
+Passo 4: Realize as operações de multiplicação e adição.
+
+Calcule o resultado de cada multiplicação e some todos os resultados.
+
+Passo 5: Encontre o valor decimal.
+
+Some todos os resultados das operações para obter o valor decimal final.

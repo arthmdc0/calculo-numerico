@@ -1,0 +1,21 @@
+Passo 1: Agrupe os dígitos binários em conjuntos de três, começando da direita para a esquerda, adicionando zeros à esquerda, se necessário.
+Passo 2: Converta cada conjunto de três dígitos binários em um único dígito octal.
+Passo 3: Junte os dígitos octais para obter o número octal final.
+
+Vou usar o número binário "110110101" como exemplo:
+
+Passo 1: Agrupe os dígitos binários em conjuntos de três, adicionando zeros à esquerda, se necessário:
+
+    "110" | "110" | "101"
+
+Passo 2: Converta cada conjunto de três dígitos binários em um único dígito octal:
+
+    "110" em binário é igual a "6" em octal.
+    "110" em binário também é igual a "6" em octal.
+    "101" em binário é igual a "5" em octal.
+
+Passo 3: Junte os dígitos octais:
+
+Portanto, o número binário "110110101" é igual a "656" em octal.
+
+Assim, "110110101" em binário é equivalente a "656" em octal.

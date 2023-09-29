@@ -1,0 +1,19 @@
+Passo 1: Escreva o número binário.
+
+Comece com o número binário que você deseja converter em decimal. Lembre-se de que os dígitos binários são 0 e 1.
+
+Passo 2: Atribua potências de 2 às posições.
+
+Começando da direita para a esquerda, atribua potências de 2 a cada posição de dígito binário, começando com 0 para o dígito mais à direita e aumentando em 1 para cada dígito subsequente
+
+Passo 3: Multiplique os dígitos binários pelas potências de 2 correspondentes.
+
+Agora, multiplique cada dígito binário pela potência de 2 correspondente à sua posição e anote o resultado.
+
+Passo 4: Realize as operações de multiplicação e adição.
+
+Calcule o resultado de cada multiplicação e some todos os resultados.
+
+Passo 5: Encontre o valor decimal.
+
+Some todos os resultados das operações para obter o valor decimal final.

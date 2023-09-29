@@ -1,0 +1,31 @@
+Passo 1: Converter cada dígito octal em seu equivalente binário de três bits. Aqui está a correspondência entre os dígitos octais e os dígitos binários:
+
+    0 em octal é igual a 000 em binário.
+    1 em octal é igual a 001 em binário.
+    2 em octal é igual a 010 em binário.
+    3 em octal é igual a 011 em binário.
+    4 em octal é igual a 100 em binário.
+    5 em octal é igual a 101 em binário.
+    6 em octal é igual a 110 em binário.
+    7 em octal é igual a 111 em binário.
+
+Passo 2: Ajuste os dígitos binários para a esquerda, removendo quaisquer zeros à esquerda não significativos.
+
+Passo 3: Junte todos os dígitos binários para obter o número binário completo.
+
+Vamos usar um exemplo: converter o número octal "52" para binário.
+
+Passo 1: Converter cada dígito octal em seu equivalente binário de três bits:
+
+    O dígito "5" em octal é igual a "101" em binário.
+    O dígito "2" em octal é igual a "010" em binário.
+
+Passo 2: Ajuste os dígitos binários para a esquerda, removendo quaisquer zeros à esquerda não significativos:
+
+    "101" e "010" permanecem os mesmos, pois não há zeros à esquerda não significativos.
+
+Passo 3: Junte os dígitos binários:
+
+    "101010" é o número binário equivalente ao número octal "52".
+
+Portanto, o número octal "52" é igual a "101010" em binário.

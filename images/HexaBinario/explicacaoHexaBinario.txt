@@ -1,0 +1,33 @@
+Passo 1: Conhecer a equivalência entre dígitos hexadecimais e dígitos binários.
+Passo 2: Converter cada dígito hexadecimal em seu equivalente binário.
+Passo 3: Juntar os equivalentes binários dos dígitos hexadecimais para obter o número binário completo.
+
+Aqui está um exemplo passo a passo, convertendo o número hexadecimal "7B3" em binário:
+
+Passo 1: Equivalência entre dígitos hexadecimais e binários:
+
+    0 em hexadecimal é igual a 0000 em binário.
+    1 em hexadecimal é igual a 0001 em binário.
+    2 em hexadecimal é igual a 0010 em binário.
+    3 em hexadecimal é igual a 0011 em binário.
+    4 em hexadecimal é igual a 0100 em binário.
+    5 em hexadecimal é igual a 0101 em binário.
+    6 em hexadecimal é igual a 0110 em binário.
+    7 em hexadecimal é igual a 0111 em binário.
+    8 em hexadecimal é igual a 1000 em binário.
+    9 em hexadecimal é igual a 1001 em binário.
+    A em hexadecimal é igual a 1010 em binário.
+    B em hexadecimal é igual a 1011 em binário.
+    C em hexadecimal é igual a 1100 em binário.
+    D em hexadecimal é igual a 1101 em binário.
+    E em hexadecimal é igual a 1110 em binário.
+    F em hexadecimal é igual a 1111 em binário.
+
+Passo 2: Converter cada dígito hexadecimal em seu equivalente binário:
+
+    "7B3" em hexadecimal corresponde a "0111 1011 0011" em binário.
+
+Passo 3: Juntar os equivalentes binários dos dígitos hexadecimais:
+
+Portanto, o número hexadecimal "7B3" é igual a "011110110011" em binário.
+
