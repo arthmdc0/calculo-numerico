@@ -212,7 +212,7 @@ function hexadecimalParaDecimal(hexadecimal) {
       const digito = hexadecimal[i].toUpperCase();
       const valorDigito = hexDigitos.indexOf(digito);
       if (valorDigito === -1) {
-         return NaN; // Se houver um caractere inválido, retorna NaN
+         return NaN;
       }
       decimal = decimal * 16 + valorDigito;
    }

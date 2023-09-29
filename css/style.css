@@ -43,13 +43,15 @@ body {
 
 .integrantes-container {
    display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
    gap: 160px;
 }
 .integrante {
    display: flex;
    align-items: center;
    justify-content: center;
-   flex-direction: column;
+   flex-direction: columngit;
    border: 5px solid white;
    border-radius: 8px;
    height: 200px;
