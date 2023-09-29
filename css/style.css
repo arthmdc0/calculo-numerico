@@ -51,7 +51,7 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   flex-direction: columngit;
+   flex-direction: column;
    border: 5px solid white;
    border-radius: 8px;
    height: 200px;
