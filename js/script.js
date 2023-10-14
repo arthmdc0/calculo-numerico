@@ -1,4 +1,4 @@
-// Funcoes de conversao, adicionar mais . . .
+// Funcoes de conversao
 
 // Decimal para Binario
 function decimalParaBinario(decimal) {
@@ -67,7 +67,7 @@ function decimalFracionarioParaBinario(numero) {
       parteFracionaria -= bit;
 
       if (historico.has(parteFracionaria.toFixed(8))) {
-         return `${sinal}${binarioInteira}${binarioFracionaria} - Parada: Três números após a vírgula repetidos.`;
+         return `${sinal}${binarioInteira}${binarioFracionaria} - Parada: Sequência repetida três vezes após a vírgula.`;
       }
 
       historico.add(parteFracionaria.toFixed(8));
